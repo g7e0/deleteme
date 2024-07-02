@@ -1,4 +1,4 @@
-name: hello-world
+name: hello-world # change
 on: push
 jobs:
   my-job:
