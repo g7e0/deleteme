@@ -1,0 +1,11 @@
+version: "1"
+rules:
+  - base: main
+    upstream: caponetto:main
+    mergeMethod: merge
+  - base: test1
+    upstream: caponetto:test1
+    mergeMethod: merge
+  - base: test2
+    upstream: caponetto:test2
+    mergeMethod: merge
