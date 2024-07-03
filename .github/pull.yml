@@ -2,10 +2,10 @@ version: "1"
 rules:
   - base: main
     upstream: caponetto:main
-    mergeMethod: merge
+    mergeMethod: none
   - base: test1
     upstream: caponetto:test1
-    mergeMethod: merge
+    mergeMethod: none
   - base: test2
     upstream: caponetto:test2
-    mergeMethod: merge
+    mergeMethod: none
