@@ -1,14 +1,12 @@
 version: "1"
+conflictLabel: "needs-rebase"
 rules:
   - base: main
     upstream: caponetto:main
     mergeMethod: none
-    conflictLabel: "needs-rebase"
   - base: test1
     upstream: caponetto:test1
     mergeMethod: none
-    conflictLabel: "needs-rebase"
   - base: test2
     upstream: caponetto:test2
     mergeMethod: none
-    conflictLabel: "needs-rebase"
